@@ -1,29 +1,30 @@
-﻿# User-Login-Screen
+# User Login Screen
 
-Description
+## Description
 
-This project is a simple User Login Screen where users can enter their credentials to log in to the system. The project includes front-end and back-end integration, validation of user input, and authentication of user credentials.
+This project is a simple **User Login Screen** where users can enter their credentials to log in to the system. It includes front-end and back-end integration, user input validation, and user credential authentication.
 
-Features
+## Features
 
-*User authentication with email and password
+- **User authentication** with email and password
+- **Input validation** (required fields, valid email format)
+- Display of **error messages** for incorrect login attempts
+- **Responsive design** for both mobile and desktop screens
+- **Session management** for logged-in users
 
-*Input validation (required fields, valid email format)
+## Technologies Used
 
-*Error messages for incorrect login attempts
+### Front-end:
+- HTML
+- CSS
+- JavaScript
 
-*Responsive design for mobile and desktop screens
+### Back-end:
+- Node.js
+- Express
 
-*Session management
+### Database:
+- MongoDB (for storing user data)
 
-
-
-Technologies Used
-
-Front-end: HTML, CSS, JavaScript
-
-Back-end: Node.js, Express
-
-Database: MongoDB (for storing user data)
-
-Authentication: JWT (JSON Web Tokens)
+### Authentication:
+- JWT (JSON Web Tokens)
